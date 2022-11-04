@@ -1,0 +1,28 @@
+.bttn{
+    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+    color: rgb(40, 40, 40);
+    font: var(--button);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+.button{
+    background: unset;
+    text-decoration: none;
+    text-align: center;
+    font: var(--button);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #fa9da0;
+    border: 2px solid #fa9da0;
+    }

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/LOGO.png" width="70" height="20" alt="Logo">
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">HOLA</a>
+                        </li>
+                        <li>
+                            <a href="#project">PROYECTOS</a>
+                        </li>
+                        <li>
+                            <a href="#contact">HABLEMOS</a>
+                        </li>
+                       
+                    </ul>
+                </nav>
+                <a target="_blank" href="./media/周彧嘉简历en.pdf" download="Joseph-Resume" class="bttn">CV</a>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <section aria-label="main" class="hero" id="main">
+            <div class="hero-image">
+                <img src="./images/joseph.png" width="338" height="330" alt="portrait">
+            </div>
+            <div class="hero-description">
+                <h1>
+                    <span>¡Hola a todos!</span>
+                    <span>Soy Joseph</span>
+                </h1>
+                <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+
+                <div class="social">
+                    <a target="_blank" class="bttn-icon" href="Tel:+8615523335508"><img
+                            src="./icons/icon-phone.svg"></a>
+                    <a target="_blank" class="bttn-icon" href="email:picadocenteno@163.com"><img
+                            src="./icons/icon-important_mail.svg"></a>
+                    <a target="_blank" class="bttn-icon" href="instagram.com/josguecen50"><img
+                            src="./icons/icon-instagram.svg"></a>
+                    <a target="_blank" class="bttn-icon" href="https://twitter.com/zhouyujia50"><img
+                            src="./icons/icon-twitter_squared.svg"></a>
+                </div>
+                <a target="_blank" href="./media/周彧嘉简历en.pdf" download="Joseph-Resume" class="bttn">Download CV</a>
+            </div>
+        </section>
+        <div class="proyect" id="project">
+            <div class="proyect-image">
+                <img src="./images/encriptador.png" alt="encriptador">
+            </div>
+
+            <div class="proyect-description">
+                <a class="title" target="_blank" href="https://zhouyujia50.github.io/">Encriptador de texto</a>
+                <p>This text encryptor is a tool that allows you to encrypt and decrypt text. Encrypting texts is similar to placing text in a safe. To put text in the safe, a secret key is used to enclose (encrypt) the text.
+                </p>
+                <a target="_blank" href="https://zhouyujia50.github.io/" class="bttn">Ver Proyecto</a>
+                <a target="_blank" href="https://github.com/zhouyujia50/zhouyujia50.github.io" class="button">Ver
+                    Codigo</a>
+            </div>
+
+        </div>
+
+        <div class="proyect">
+            <div class="proyect-image">
+                <img src="./images/hang.png" alt="hangman">
+            </div>
+
+            <div class="proyect-description">
+                <a class="title" target="_blank" href="https://zhouyujia50.github.io/hangman.github.io/index.html">Juego del ahorcado</a>
+                <p>The hangman game is a game that gives you random words for the user to try to guess, in this case, I tried to make the hangman game with a style of Chinese culture.
+                </p>
+                <a target="_blank" href="https://zhouyujia50.github.io/hangman.github.io/index.html" class="bttn">Ver Proyecto</a>
+                <a target="_blank" href="https://github.com/zhouyujia50/hangman.github.io" class="button">Ver
+                    Codigo</a>
+            </div>
+
+        </div>
+
+        <div class="proyect">
+            <div class="proyect-image">
+                <img src="./images/process.png" alt="process">
+            </div>
+
+            <div class="proyect-description">
+                <a class="title" target="_blank" href="https://zhouyujia50.github.io/">E-commerce</a>
+                <p>This project is still in process.....<br>
+                    This project is still in process.....<br>
+                    This project is still in process.....
+                </p>
+                <a target="_blank" href="#" class="bttn">Ver Proyecto</a>
+                <a target="_blank" href="#" class="button">Ver
+                    Codigo</a>
+            </div>
+
+        </div>
+
+        <form id="form" action="" method="post" class="form" action="https://formspree.io/f/xpznojvd" method="POST">
+            <h1 class="title">HABLEMOS</h1>
+            <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+            </p>
+            <label for="form-name">
+                Nombre Completo
+                <input required name="name" id="form-name" type="text" placeholder="Pablo">
+            </label>
+            <label for="form-name">
+                Correo electronico
+                <input required name="email" id="form-email" type="email" placeholder="example@.com">
+            </label>
+            <label for="form-name">
+                Mensaje
+                <textarea required name="message" placeholder="Mensaje" id="form-message" cols="30"
+                    rows="10"></textarea>
+            </label>
+            <button class="bttn" type="submit">sent</button>
+        </form>
+        <a href="mailto:picadocenteno@163.com" id="correito">mail</a>
+
+        <footer class="footer" id="contact">
+            <div class="footer-logo">
+                <img src="./images/LOGO.png" width="70" height="20" alt="Logo">
+            </div>
+            <div class="social">
+                <a target="_blank" class="bttn-icon" href="Tel:+8615523335508"><img src="./icons/icon-phone.svg"></a>
+                <a target="_blank" class="bttn-icon" href="email:picadocenteno@163.com"><img src="./icons/icon-important_mail.svg"></a>
+                <a target="_blank" class="bttn-icon" href="instagram.com/josguecen50"><img src="./icons/icon-instagram.svg"></a>
+                <a target="_blank" class="bttn-icon" href="https://twitter.com/zhouyujia50"><img src="./icons/icon-twitter_squared.svg"></a>
+            </div>
+            <div class="footer-copyright">
+                <p>Hecho con el ❤ por Joseph Picado</p>
+                <p>
+                    Copyright 2022 - Todos los derechos reservados.
+                </p>
+            </div>
+
+        </footer>
+
+    </div>
+    <!-- <script>
+        const $form = document.querySelector('#form')
+        const $buttonMailto = document.querySelector('#correito')
+
+        $form.addEventListener('submit', handleSubmit)
+
+        function handleSubmit(event) {
+            event.preventDefault()
+            const form = new FormData(this)
+            console.log(form.get('name'))
+            $buttonMailto.setAttribute('href', `mailto:picadocenteno@163.com?subject=${form.get('name')} ${form.get('email')}&body=${form.get('message')}`)
+            $buttonMailto.click()
+
+        }
+    </script>-->
+
+    <script>
+        const $form = document.querySelector('form')
+        $form.addEventListener('submit', handleSubmit)
+        async function handleSubmit(event) {
+            event.preventDefault()
+            const form = new FormData(this)
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            if (response.ok) {
+                this.reset()
+                alert('Gracias por contactarme')
+            }
+
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.header {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(20px);
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 80px;
+}
+
+.header .bttn{
+    color: var(--gradient);
+    background:
+    linear-gradient(currentColor 0 0) 0 100%,
+    linear-gradient(currentColor 0 0) 0 100%,
+    linear-gradient(currentColor 0 0) 100% 0,
+    linear-gradient(currentColor 0 0) 100% 0;
+  background-size: 20px 3px, 3px 20px;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+.header .bttn:hover{
+    background-position: 100% 100%, 0 0, 0 0, 100% 100%;
+}
